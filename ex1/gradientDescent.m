@@ -18,7 +18,6 @@ for iter = 1:num_iters
     %       of the cost function (computeCost) and gradient here.
     %
     diff = X * theta - y;
-    diff = [diff diff];
     theta = theta - (alpha / m) * (sum(diff .* X))';
     thetas(iter,:) = theta';
 
