@@ -18,9 +18,8 @@ _Normal equation (analytic method):_
 
 **Logistic Regression**
 
-- ![equation](https://latex.codecogs.com/gif.latex?y%3Dh_%5Ctheta%20%28X%29%3D%5Cfrac%7B1%7D%7B1&plus;e%5E%7B-%5Ctheta%20X%7D%7D)
-and ![equation](https://latex.codecogs.com/gif.latex?%5Ctheta%20X%3D%5Cln%20%5Cfrac%7By%7D%7B1-y%7D)
-- The odds is the ratio between the amounts staked by parties to a bet. Here the odds is $${y \over {1-y}}$$.
+- y = h<sub>&theta;</theta>(X) = 1 / (1 + e<sup>-&theta;X</sup>) and &theta;X = ln(y/(1-y))
+- The odds is the ratio between the amounts staked by parties to a bet. Here the odds is y/(1-y).
 
 **Maximum Likelihood Estimation**
 
