@@ -1,2 +1,3 @@
-function y = squareThis(x);
-y = x^2;
+function y = squareThis(x)
+  y = x^2;
+end
