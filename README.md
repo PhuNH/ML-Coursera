@@ -38,9 +38,10 @@ derivative{&theta;<sub>j</sub>}(J(&theta;)) = the same as this of Linear Regress
 
 **Regularization**
 
-- Used to fight overfitting: keep all features but reduce magnitude/values of parameters &theta;<sub>j</sub>.  
-- Underfitting: high bias; overfitting: high variance.  
-- We need to have a regularization parameter &lambda; so that when we minimize the cost function, we would need to decrease values of &theta;<sub>j</sub>'s more than usual. Like a penalization.  
+- Used to fight overfitting: keep all features but reduce magnitude/values of parameters &theta;<sub>j</sub>.
+- Underfitting: high bias; overfitting: high variance.
+- We need to have a regularization parameter &lambda; so that when we minimize the cost function, we would need to decrease values of &theta;<sub>j</sub>'s more than usual. Like a penalization.
+- We should not regularize the parameter &theta;<sub>0</sub>.
 - Setting &lambda; too large might result in the algorithm being underfit (all &theta;<sub>j</sub> might get to 0).
 
 Use L2 Reg. (lambda squared):  
